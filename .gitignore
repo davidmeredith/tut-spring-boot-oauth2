@@ -1,5 +1,15 @@
+# Root .gitignore file
+# Subdirs can also include a .gitignore file which appends and overrides rules defined in parent .gitignores
+# Child .gitignore files are useful for repos with several independent repos located in subdirs.
+# For sample template .gitignores see: https://github.com/github/gitignore
+
+# Remeber to use a global .gitignore file to perform exclusions specific for your environment/IDE
+# see: https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+
+
 .idea
 *.iml
+*~
 .factorypath
 classes
 target
